@@ -2,7 +2,6 @@
 #include <DHT.h>
 #include <DHT_U.h>
 
-// ----------------------------------------------------------------------------
 // Email & Time Libs
 #include <ESP8266WiFi.h>
 #include <ESP_Mail_Client.h>
@@ -12,7 +11,9 @@
 
 // thingsboard MQTT
 #include <PubSubClient.h>
-// ----------------------------------------------------------------------------
+
+// Github OTA
+#include "cert.h"
 
 // DHT Pin settings
 // ESP8266 note: use pins 3, 4, 5, 12, 13 or 14
@@ -74,7 +75,6 @@ NTPClient timeClient(ntpUDP, "pool.ntp.org", utcOffsetInSeconds);
 WiFiClient espClient;   // For secure WiFi SSL/TLS connection
 WiFiClientSecure secureClient;
 PubSubClient client(espClient);
-// ----------------------------------------------------------------------------
 
 
 // ----------------------------------------------------------------------------
@@ -91,7 +91,6 @@ void initWiFi() {
   Serial.print("Connected with IP: ");
   Serial.println(WiFi.localIP());
 }
-// ----------------------------------------------------------------------------
 
 
 // ----------------------------------------------------------------------------
@@ -144,7 +143,6 @@ void sendTelemetry(float temp, float hum, float light) {
 //     Serial.print("Message arrived on topic: ");
 //     Serial.println(topic);
 // }
-// ----------------------------------------------------------------------------
 
 
 // ----------------------------------------------------------------------------
@@ -230,7 +228,6 @@ void smtpCallback(SMTP_Status status) {
     smtp.sendingResult.clear();
   }
 }
-// ----------------------------------------------------------------------------
 
 
 // ----------------------------------------------------------------------------
@@ -266,7 +263,6 @@ void initSensor() {
   Serial.println(F("------------------------------------"));
   delay(short_delay);
 }
-// ----------------------------------------------------------------------------
 
 
 // ----------------------------------------------------------------------------
@@ -365,7 +361,6 @@ void LightSensorRead() {
     Serial.printf("Previous Email Time Elapse < %.2f mins\n", interval / 60000.0);
   }
 }
-// ----------------------------------------------------------------------------
 
 
 void setup() {
