@@ -1,4 +1,5 @@
-![DHT11, KY-018 and Grow Lights Subsystem](https://photos.fife.usercontent.google.com/pw/AP1GczPIlgDOaBUepJJarg8U_Q_RaF7G5t2_cfAOiGSUkKyvx2y7-Dd-NyJnAw=w1280-h960-s-no-gm?authuser=0)
+![IMG_20250406_220329_482](https://github.com/user-attachments/assets/adf261b2-0385-425b-8da4-698d6d04d2dd)
+![IMG_20250406_220342_719](https://github.com/user-attachments/assets/b5e0f9fc-1ebb-47fe-b736-0580edb0438b)
 
 # This Repository Contains 2 Out Of 5 Subsystems For The Project
 **1) DHT11, KY-018 and Grow Lights Subsystem**<br/>
