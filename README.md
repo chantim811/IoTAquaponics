@@ -1,9 +1,9 @@
-# This Repository Contains 2 Subsystems Out Of 5 For The Project
-**1) DHT11, KY-018 and Grow Lights Subsystem**
-**2) Water Level Sensor & Water Pump Relay Subsystem**
-3) Live Web Monitoring Subsystem
-4) Plant Health Monitoring Subsystem
-5) Solar Panel Actuation Susbsystem
+# This Repository Contains 2 Out Of 5 Subsystems For The Project
+**1) DHT11, KY-018 and Grow Lights Subsystem\n**
+**2) Water Level Sensor & Water Pump Relay Subsystem\n**
+3) Live Web Monitoring Subsystem\n
+4) Plant Health Monitoring Subsystem\n
+5) Solar Panel Actuation Susbsystem\n
 
 ## DHT11, KY-018 and Grow Lights Subsystem
 
