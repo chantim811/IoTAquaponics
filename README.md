@@ -1,3 +1,5 @@
+![DHT11, KY-018 and Grow Lights Subsystem](https://photos.fife.usercontent.google.com/pw/AP1GczPIlgDOaBUepJJarg8U_Q_RaF7G5t2_cfAOiGSUkKyvx2y7-Dd-NyJnAw=w1280-h960-s-no-gm?authuser=0)
+
 # This Repository Contains 2 Out Of 5 Subsystems For The Project
 **1) DHT11, KY-018 and Grow Lights Subsystem**<br/>
 **2) Water Level Sensor & Water Pump Relay Subsystem**<br/>
