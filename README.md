@@ -1,12 +1,12 @@
-![IMG_20250406_220329_482](https://github.com/user-attachments/assets/adf261b2-0385-425b-8da4-698d6d04d2dd)
-![IMG_20250406_220342_719](https://github.com/user-attachments/assets/b5e0f9fc-1ebb-47fe-b736-0580edb0438b)
+<img src="https://github.com/user-attachments/assets/adf261b2-0385-425b-8da4-698d6d04d2dd" width="200"/>
+<img src="https://github.com/user-attachments/assets/b5e0f9fc-1ebb-47fe-b736-0580edb0438b" width="200"/>
 
 # This Repository Contains 2 Out Of 5 Subsystems For The Project
 **1) DHT11, KY-018 and Grow Lights Subsystem**<br/>
 **2) Water Level Sensor & Water Pump Relay Subsystem**<br/>
 3) Live Web Monitoring Subsystem<br/>
 4) Plant Health Monitoring Subsystem<br/>
-5) Solar Panel Actuation Susbsystem<br/>
+5) Solar Panel Actuation Subsystem<br/>
 
 ## DHT11, KY-018 and Grow Lights Subsystem
 
